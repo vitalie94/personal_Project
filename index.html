@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <link rel="Stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                 <a href="index.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+     <a href="about.html">About</a>
+                </div>
+            </div>
+
+            <div class="right-side">
+
+     <div>Mosneag Vitalie</div>
+            </div>
+</div>
+
+
+
+<div class="content-wrapper">
+    <div class="portfolio-items-wrapper">
+     <div class="portfolio-img-background"
+     <div class="portfolio-item-wrapper" style="background-image: url(images.portfolio1.jpg)"></div>
+     
+
+     <div class="img-text-wrapper">
+     <div class="logo-wrapper">
+      <img src="13567428_1707843982800678_8127143649551109793_n.jpg" alt="">
+      <img src="altumcode-XMFZqrGyV-Q-unsplash.jpg"  alt="">
+     <img src="florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="">
+     <img src="james-harrison-vpOeXr5wmR4-unsplash.jpg"  alt="">
+     <img src="pankaj-patel-Fi-GJaLRGKc-unsplash.jpg" alt="">
+<div class="subtitle">
+
+    </div>
+
+
+    </div> 
+</body>
+<script>
+    connst portofolioItems = document.querySelectorAll('.portofolio-item-wrapper')
+
+    portofolioItems.forEach(portofolioItem = > {
+        portofolioItem.addEventListener('mouseover', () =>{
+        console.log(portofolioItem.childNodes[1].classList);
+        portofolioItem.childNotes[1].classList.remove('img-darken');
+
+    })
+})   
+    
+</html>
